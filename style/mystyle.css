@@ -10,7 +10,7 @@
     width: 1600px;
     height: 1000px;
     left: 1600px; 
-    align-items: center;
+    top: 1px;
 }
 
 .header-subject{
@@ -28,7 +28,7 @@
 }
 .header-pra{
     position: absolute;
-    width: 494px;
+    width: 500px;
     height: 80px;
     left: 900px;
     top: 450px;
@@ -63,13 +63,25 @@
 .sub-title-img{
     margin-left: 150px;
 }
+.sub-title-header{
+    width: 700;
+}
+.sub-title-pra{
+    text-align: justify;
+    margin: 2px;
+}
+li{
+    padding: 1px;
+}
 /* my plans */
 
 .plans{
     display: flex;
     margin-left: 500px;
+    margin-right: 500px; ;
     margin-top: 50px;
     width: 800;
+    background-color: honeydew;
 }
 
 .plan{
@@ -182,8 +194,11 @@
     border: 0;
     padding: 18px 35px;
 }
-.sociel{
+.social{
     display: flex;
     gap: 117px;
     padding: 130px 200px;
+}
+.hed{
+    text-align: left;
 }
