@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-image: url("../images/banner/banner3.png");
+    
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 1600px;
+    height: 1000px;
+    left: 1600px; 
+    align-items: center;
+}
+
+.header-subject{
+   justify-content: right;
+}
+.header-title{
+    font-weight: 700;
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    left: 900px;
+    top: 350px;
+    text-align: right;
+    
+}
+.header-pra{
+    position: absolute;
+    width: 494px;
+    height: 80px;
+    left: 900px;
+    top: 450px;
+    text-align: right;
+}
+.header-btn{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    border-radius: 8px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+}
+/*main title */
+
+.title{
+    display: flex;
+    background: #FFF8F3 ;
+}
+.sub-title{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 900px;
+    top: 1300px;
+}
+.sub-title-img{
+    margin-left: 150px;
+}
+/* my plans */
+
+.plans{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 800;
+}
+
+.plan{
+    text-align: center;
+    margin: 50px;
+    width: 800;
+}
+.plans-logo{
+    margin-right: 100px;
+}
+.plans-logo2{
+    margin-right: 100px;
+}
+.plans-logo3{
+    margin-right: 100px;
+}
+.plans-logo4{
+    margin-right: 100px;
+}
+.plans-title{
+    margin: 10px;
+}
+.plans-title2{
+    margin: 10px;
+}
+.plans-title3{
+    margin: 10px;
+}
+.plans-title4{
+    margin: 10px;
+}
+.call-style{
+    text-align: center;
+    border: 1px solid ;
+    margin: 50px 500px;
+    background-image: url("/images/watch.png");
+    border: 0;
+    border-radius: 5px;
+}
+.call-style-header{
+    width: 800;
+    text-align: left;
+    padding: 20px;
+}
+.call-style-btn{
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+}
+/* footer */
+.contact{
+    background-color: black;
+    color: white;
+    
+}
+.footer-header{
+    display: flex;
+    margin-top: 150px;
+    
+}
+.footer-title{
+    width: 700;
+    margin-left: 150px;
+    margin-top: 150px;
+    padding: 20px;
+}
+.footer-description{
+    margin-left: 150px;
+    line-height: 20px;
+    padding: 20px;
+}
+.footer-email{
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.footer-phone{
+    padding: 20px;
+    margin: 20px;
+}
+.a{
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 150px;
+}
+.title-subscribe{
+    margin-right: 150px;
+    margin-top: 150px;
+    padding: 20px;
+}
+.email{
+    margin-bottom: 25px;
+    border: 0;
+    width: 100%;
+    padding: 10px 35px;
+
+}
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+}
+.sociel{
+    display: flex;
+    gap: 117px;
+    padding: 130px 200px;
+}
